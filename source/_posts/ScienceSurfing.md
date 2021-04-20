@@ -3,7 +3,7 @@ title: 科学上网客户端配置教程
 date: 2020-06-08 23:57:40
 updated: 2020-06-08 23:57:40
 categories: 服务器公告
-password: 韦杨淞
+password: 193e5ef49365ea99b12b3dba6914204ffb761d445db179bb8ff654bd72d50000
 top: true
 ---
 
