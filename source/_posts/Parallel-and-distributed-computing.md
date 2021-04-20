@@ -2,6 +2,12 @@
 title: 并行与分布式计算课程笔记
 date: 2020-08-31 13:44:18
 categories: CS基础
+img: ./medias/featureimages/0.jpg
+summary: 并行算法课程笔记
+cover: true
+tag: 
+ - 并行算法
+ - 分布式计算
 ---
 
 # 引言

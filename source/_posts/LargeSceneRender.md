@@ -2,6 +2,13 @@
 title: 巨量多边形场景渲染——相关论文阅读笔记
 date: 2020-09-20 10:50:59
 categories: 计算机图形学
+img: ./medias/featureimages/2.jpg
+summary: 巨量片面数场景渲染相关论文阅读
+cover: true
+tag: 
+ - 巨量多边形场景
+ - 计算机图形学
+ - 论文阅读
 ---
 
 # [GigaVoxels:A Voxel-Based Rendering Pipeline For Efficient Exploration Of Large And Detailed Scenes](http://gigavoxels.inria.fr/Publications/2011/Cra11/CCrassinThesis_EN_Web.pdf)

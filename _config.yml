@@ -4,7 +4,7 @@
 
 # Site
 title: Onion's Blog
-subtitle: ''
+subtitle: 'OnionStark'
 description: 'Onion Stark的个人主页'
 keywords:
 author: Onion Stark
@@ -45,12 +45,17 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: false
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -99,7 +104,7 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: git@www.onionstark.top:/home/git/hexo.git
+  repo: git@onionstark.top:/home/git/hexo.git
   branch: master
 
 live2d:
@@ -117,3 +122,29 @@ live2d:
     show: false   
   rect:
     opacity:0.7
+
+search:
+  path: search.xml
+  field: post
+
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
+
+  feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+

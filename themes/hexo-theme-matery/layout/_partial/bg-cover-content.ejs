@@ -33,8 +33,10 @@
 
 <% if (theme.banner.enable) { %>
 <script>
+    var number = Math.random();
+    number = Math.ceil(number * 10); 
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "<%- theme.jsDelivr.url %><%- url_for('/medias/banner/') %>" + new Date().getDay() + '.jpg';
+    var bannerUrl = "<%- theme.jsDelivr.url %><%- url_for('/medias/banner/') %>" + number + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 <% } else { %>

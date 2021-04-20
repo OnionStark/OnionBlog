@@ -2,6 +2,13 @@
 title: 算法课笔记
 date: 2020-08-26 15:06:58
 categories: CS基础
+img: ./medias/featureimages/3.jpg
+summary: 阿汤哥算法课期末复习提纲
+cover: true
+toc: true
+tag: 
+ - 算法
+ - 课程笔记
 ---
 
 # 算法分析

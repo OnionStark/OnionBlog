@@ -3,6 +3,10 @@ title: 科学上网客户端配置教程
 date: 2020-06-08 23:57:40
 updated: 2020-06-08 23:57:40
 categories: 服务器公告
+tag: 科学上网
+img: ./medias/featureimages/4.jpg
+summary: 服务器公告
+cover: true
 password: 193e5ef49365ea99b12b3dba6914204ffb761d445db179bb8ff654bd72d50000
 top: true
 ---
@@ -37,17 +41,17 @@ Clash for Windows是基于Clash内核的Windows平台客户端。对于喜欢Cla
 
 首先，在[Clash的github下载页](https://github.com/Fndroid/clash_for_windows_pkg/releases)下载最新版程序，
 
-![image-20200831135627723](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083113-56-33-f0efc58a9f78c3d6c2e5ef6f6be58033-image-20200831135627723-2030a3.png)
+![github下载页](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083113-56-33-f0efc58a9f78c3d6c2e5ef6f6be58033-image-20200831135627723-2030a3.png)
 
 如github访问不了可以此处[网盘下载](https://pan.baidu.com/s/1JXmpRW-4kOcxsNkkUTJuuw)提取码：iivy。
 
 下载完成后双击进行安装，安装后打开，桌面右下角的托盘内找到Clash的图标(图标是一只猫)，点击，打开软件主界面：
 
-![image-20200831135820713](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083113-58-20-9d9a104c93879500554621e515b4944f-image-20200831135820713-978967.png)
+![clash界面](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083113-58-20-9d9a104c93879500554621e515b4944f-image-20200831135820713-978967.png)
 
 然后点击[这里](https://pan.baidu.com/s/1Awavklhlt6OeceXWY8lC-A)下载配置文件，提取码为y810。用记事本、VS Code、Notepad++等编辑器打开，找到trojan配置块，如下图所示：
 
-![image-20200831140348361](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083114-03-48-aa24ac1fd8e6d9489d642a1fc13a5fc3-image-20200831140348361-f1b7e2.png)
+![配置文件](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083114-03-48-aa24ac1fd8e6d9489d642a1fc13a5fc3-image-20200831140348361-f1b7e2.png)
 
 服务器地址和端口已经填好，只需要填password一项。password为username:passwd	
 
@@ -55,11 +59,11 @@ Clash for Windows是基于Clash内核的Windows平台客户端。对于喜欢Cla
 
 填好后保存，打开clash客户端点击“Profiles”，把修改好的配置文件拖到clash界面中，然后双击选中拖进来的配置文件(深色表示选中)：
 
-![image-20200831140724057](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083114-07-24-1ab577cd664b31c3bd9ff496fd8450a3-image-20200831140724057-966bb8.png)
+![profiles界面](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083114-07-24-1ab577cd664b31c3bd9ff496fd8450a3-image-20200831140724057-966bb8.png)
 
 接着点击“Proxies”，进入最重要的设置：选择代理模式和选择使用的节点：
 
-![image-20200920110122617](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020092011-01-28-f880bb3e984c055414aede82e2659d4b-image-20200920110122617-ddff97.png)
+![代理模式](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020092011-01-28-f880bb3e984c055414aede82e2659d4b-image-20200920110122617-ddff97.png)
 
 最上面的Global、Rule和Direct表示全局代理、基于规则路由和直连，(可以认为)对应其他客户端的全局模式、PAC模式和禁用系统代理。**绝大多数情况建议使用Rule**。
 
@@ -71,7 +75,7 @@ Final表示如果没有匹配的规则，默认走代理还是直连，个人建
 
 最后点击General回到主界面，点击“System Proxy”，开启系统代理：
 
-![image-20200831140958255](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083114-09-58-7dab9433ca58c7c120130eec0240c91d-image-20200831140958255-5595db.png)
+![开启系统代理](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083114-09-58-7dab9433ca58c7c120130eec0240c91d-image-20200831140958255-5595db.png)
 
 Start with Windows开启后可以随系统启动。
 
@@ -79,7 +83,7 @@ Start with Windows开启后可以随系统启动。
 
 出于节约流量的角度，平时建议用Rule模式：
 
-![image-20200831141137385](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083114-11-37-c8dbf51371963ee07be5991846694803-image-20200831141137385-f05bf8.png)
+![rule模式](https://gitee.com/wei_yang_song/image-resources/raw/master/img/2020083114-11-37-c8dbf51371963ee07be5991846694803-image-20200831141137385-f05bf8.png)
 
 当浏览的小网站打不开时再切换Global或者自己向Rule里添加该网址。
 

@@ -2,6 +2,13 @@
 title: 巨量面数场景渲染优化算法的设计与实现——网易实习项目
 date: 2021-04-19 23:50:48
 categories: 计算机图形学
+img: ./medias/featureimages/1.jpg
+summary: 网易实习项目总结
+cover: true
+tag: 
+ - 计算机图形学
+ - 渲染优化
+ - 巨量多边形场景
 ---
 
 # 巨量面数场景渲染优化算法的设计与实现
